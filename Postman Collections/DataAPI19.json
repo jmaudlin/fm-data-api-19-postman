@@ -10,7 +10,7 @@
 			"item": [
 				{
 					"name": "Product info",
-					"_postman_id": "09eef934-a487-4338-8166-18a452a526c1",
+					"id": "09eef934-a487-4338-8166-18a452a526c1",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -23,7 +23,7 @@
 				},
 				{
 					"name": "Database Names",
-					"_postman_id": "64b2d0cd-5713-44e9-b2c6-b4743dd4a1e9",
+					"id": "64b2d0cd-5713-44e9-b2c6-b4743dd4a1e9",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -43,7 +43,7 @@
 				},
 				{
 					"name": "Layout Names",
-					"_postman_id": "8ece91df-0103-4ba5-999b-6905650a24e6",
+					"id": "8ece91df-0103-4ba5-999b-6905650a24e6",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -63,7 +63,7 @@
 				},
 				{
 					"name": "Script Names",
-					"_postman_id": "972e5690-c642-4f58-89c0-2145d8244dcb",
+					"id": "972e5690-c642-4f58-89c0-2145d8244dcb",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -83,7 +83,7 @@
 				},
 				{
 					"name": "Layout Metadata",
-					"_postman_id": "758984e4-d569-4dfe-a507-6c3eca57a43d",
+					"id": "758984e4-d569-4dfe-a507-6c3eca57a43d",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -98,8 +98,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "",
-							"options": {}
+							"raw": ""
 						},
 						"url": {
 							"raw": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/layouts/{{layout}}?recordId={{recordID}}",
@@ -128,7 +127,7 @@
 				},
 				{
 					"name": "Old Layout Metadata",
-					"_postman_id": "ac3d8853-d657-4ce9-ba70-ce5a36649633",
+					"id": "ac3d8853-d657-4ce9-ba70-ce5a36649633",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -143,8 +142,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "",
-							"options": {}
+							"raw": ""
 						},
 						"url": {
 							"raw": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/layouts/{{layout}}/metadata?recordId={{recordID}}",
@@ -173,14 +171,14 @@
 					"response": []
 				}
 			],
-			"_postman_id": "3c461536-61bd-4d43-b0ff-01a96bc82b25"
+			"id": "3c461536-61bd-4d43-b0ff-01a96bc82b25"
 		},
 		{
 			"name": "records",
 			"item": [
 				{
 					"name": "Get records",
-					"_postman_id": "75b671a7-781e-4851-9329-d2a79b04a6f9",
+					"id": "75b671a7-781e-4851-9329-d2a79b04a6f9",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -199,7 +197,7 @@
 				},
 				{
 					"name": "Get Single Record By Id",
-					"_postman_id": "8337d699-3870-40ed-b69b-040ea81c8cc0",
+					"id": "8337d699-3870-40ed-b69b-040ea81c8cc0",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -218,7 +216,7 @@
 				},
 				{
 					"name": "Create record",
-					"_postman_id": "1c53bdab-c33b-45d5-ad24-d5390a89b343",
+					"id": "1c53bdab-c33b-45d5-ad24-d5390a89b343",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -240,8 +238,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\"fieldData\": {\n     \"First Name\": \"Jhon\",\n     \"Last Name\": \"Doe\"\n   }\n}",
-							"options": {}
+							"raw": "{\n\"fieldData\": {\n     \"First Name\": \"Jhon\",\n     \"Last Name\": \"Doe\"\n   }\n}"
 						},
 						"url": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/layouts/{{layout}}/records"
 					},
@@ -249,7 +246,7 @@
 				},
 				{
 					"name": "Edit record",
-					"_postman_id": "f858228f-06e5-4f8c-8026-0469bd6d6a05",
+					"id": "f858228f-06e5-4f8c-8026-0469bd6d6a05",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -270,8 +267,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\"fieldData\": {\n     \"First Name\": \"John\",\n     \"Last Name\": \"Doe\"\n   }\n}",
-							"options": {}
+							"raw": "{\n\"fieldData\": {\n     \"First Name\": \"John\",\n     \"Last Name\": \"Doe\"\n   }\n}"
 						},
 						"url": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/layouts/{{layout}}/records/{{recordID}}"
 					},
@@ -279,7 +275,7 @@
 				},
 				{
 					"name": "Delete record",
-					"_postman_id": "f295f25c-cc60-4436-8df3-b80c59d339f1",
+					"id": "f295f25c-cc60-4436-8df3-b80c59d339f1",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -298,7 +294,7 @@
 				},
 				{
 					"name": "Duplicate Record",
-					"_postman_id": "63e260aa-67e7-4c2b-87e7-db07f5ea1ca0",
+					"id": "63e260aa-67e7-4c2b-87e7-db07f5ea1ca0",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -323,7 +319,7 @@
 				},
 				{
 					"name": "Find records",
-					"_postman_id": "b3f44a34-b2ac-425a-b39b-05115d52835e",
+					"id": "b3f44a34-b2ac-425a-b39b-05115d52835e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -344,15 +340,14 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n \"query\":[{\"First Name\":\"==\\\"Jhon\\\"\"}]\n}",
-							"options": {}
+							"raw": "{\n \"query\":[{\"First Name\":\"==\\\"Jhon\\\"\"}]\n}"
 						},
 						"url": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/layouts/{{layout}}/_find"
 					},
 					"response": []
 				}
 			],
-			"_postman_id": "b1773526-e2d5-45b3-b5ea-9930546fb16a"
+			"id": "b1773526-e2d5-45b3-b5ea-9930546fb16a"
 		},
 		{
 			"name": "auth",
@@ -385,7 +380,7 @@
 							}
 						}
 					],
-					"_postman_id": "f470d24c-5fdc-4b7b-9a76-256ba93aca04",
+					"id": "f470d24c-5fdc-4b7b-9a76-256ba93aca04",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -503,7 +498,7 @@
 				},
 				{
 					"name": "Log out",
-					"_postman_id": "93e49d99-6d9a-4f03-9308-3a4fb4f11fe8",
+					"id": "93e49d99-6d9a-4f03-9308-3a4fb4f11fe8",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -516,7 +511,7 @@
 				},
 				{
 					"name": "Validate Session",
-					"_postman_id": "c409c329-a20a-4255-9367-e3ead57f392d",
+					"id": "c409c329-a20a-4255-9367-e3ead57f392d",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -534,14 +529,14 @@
 					"response": []
 				}
 			],
-			"_postman_id": "2c51c74c-fdc5-448a-ac8a-d8ee675b7860"
+			"id": "2c51c74c-fdc5-448a-ac8a-d8ee675b7860"
 		},
 		{
 			"name": "container",
 			"item": [
 				{
 					"name": "Upload to Container Field",
-					"_postman_id": "fd427873-b8da-4b2b-b725-5bb815dcee41",
+					"id": "fd427873-b8da-4b2b-b725-5bb815dcee41",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -569,8 +564,7 @@
 									"type": "file",
 									"value": null
 								}
-							],
-							"options": {}
+							]
 						},
 						"url": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/layouts/{{layout}}/records/{{recordID}}/{{containerFieldName}}"
 					},
@@ -578,7 +572,7 @@
 				},
 				{
 					"name": "Upload to Container Field Copy",
-					"_postman_id": "57821df0-5bfc-4f44-bfa6-ec1261e34c58",
+					"id": "57821df0-5bfc-4f44-bfa6-ec1261e34c58",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -599,22 +593,21 @@
 									"type": "file",
 									"value": null
 								}
-							],
-							"options": {}
+							]
 						},
 						"url": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/layouts/{{layout}}/records/{{recordID}}/{{containerFieldName}}/{{containerFieldRepetition}}"
 					},
 					"response": []
 				}
 			],
-			"_postman_id": "2abbce48-ba91-43be-af0f-e72d84950240"
+			"id": "2abbce48-ba91-43be-af0f-e72d84950240"
 		},
 		{
 			"name": "globals",
 			"item": [
 				{
 					"name": "Set Global Fields",
-					"_postman_id": "744acb2d-f7d2-4fe4-a1aa-f5f296171628",
+					"id": "744acb2d-f7d2-4fe4-a1aa-f5f296171628",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -635,15 +628,14 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n \"globalFields\":[{\"Global Field\":\"1\"}]\n}",
-							"options": {}
+							"raw": "{\n \"globalFields\":[{\"Global Field\":\"1\"}]\n}"
 						},
 						"url": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/globals"
 					},
 					"response": []
 				}
 			],
-			"_postman_id": "97eb4bdb-9a4c-40df-b4a8-8c7c195603f8"
+			"id": "97eb4bdb-9a4c-40df-b4a8-8c7c195603f8"
 		}
 	],
 	"event": [
@@ -670,64 +662,56 @@
 	],
 	"variable": [
 		{
-			"id": "b176d4b1-bdb3-489a-9c45-d29b462d9ca8",
+			"id": "c8f5cc11-1e63-411e-a55b-ca9ee5539a0e",
 			"key": "serverurl",
-			"value": "fmp.squawcreekkennels.com",
-			"type": "string"
+			"value": "fmp.squawcreekkennels.com"
 		},
 		{
-			"id": "995935d0-fc4b-49ec-bbae-02d46dd75fe2",
+			"id": "904b0c81-7467-4b87-987e-bc5bb17145ed",
 			"key": "version",
-			"value": "vLatest",
-			"type": "string"
+			"value": "vLatest"
 		},
 		{
-			"id": "dcb233c4-abbc-4e5d-b911-f3f00b51a6fd",
+			"id": "cf1912c5-1b94-4e2c-999b-87c62df43272",
 			"key": "database",
-			"value": "Web",
-			"type": "string"
+			"value": "Web"
 		},
 		{
-			"id": "9ce5b7c6-6180-4ddb-bc40-96bbe65f3a20",
+			"id": "a7d9076b-1189-4063-a77f-296090a33449",
 			"key": "layout",
-			"value": "Web",
-			"type": "string"
+			"value": "Web"
 		},
 		{
-			"id": "28d60dd7-ae1a-47d6-a688-0a9c01a3f1a4",
+			"id": "b41b3805-eebb-4d30-be57-e507de1cafd0",
 			"key": "user",
 			"value": "SCKAdmin",
 			"type": "string"
 		},
 		{
-			"id": "25850b13-c9b0-46ee-8862-5c4a3b4f3f78",
+			"id": "a7787ebb-8193-4778-a306-b3cc22c14630",
 			"key": "password",
 			"value": "loc56hel9",
 			"type": "string"
 		},
 		{
-			"id": "7b3fc6a4-26d7-4d14-8927-b6af766ff059",
+			"id": "91dd1e30-c704-4441-b6e7-31cad5cba8c7",
 			"key": "sessionToken",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "1b762983-e45b-45b0-b33a-c6d073019eb1",
+			"id": "3363c2f9-2715-47b8-9c77-90e444668d42",
 			"key": "recordID",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "b74d472e-3f64-49b2-b562-4420d94daeee",
+			"id": "9ebefbbb-075e-4193-9db4-9f1dadc19def",
 			"key": "containerFieldName",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "f0421440-fbcd-4b3d-9f8a-c38a52682d83",
+			"id": "a379eb50-2272-4463-a601-cfe08780c579",
 			"key": "containerFieldRepetition",
-			"value": "",
-			"type": "string"
+			"value": ""
 		}
 	]
 }
