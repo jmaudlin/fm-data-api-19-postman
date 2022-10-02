@@ -14,15 +14,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{serveur}/fmi/data/{version}/productInfo",
+							"raw": "https://{{serverurl}}/fmi/data/{{version}}/productInfo",
 							"protocol": "https",
 							"host": [
-								"{serveur}"
+								"{{serverurl}}"
 							],
 							"path": [
 								"fmi",
 								"data",
-								"{version}",
+								"{{version}}",
 								"productInfo"
 							]
 						}
@@ -50,15 +50,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{serveur}/fmi/data/{version}/databases",
+							"raw": "https://{{serverurl}}/fmi/data/{{version}}/databases",
 							"protocol": "https",
 							"host": [
-								"{serveur}"
+								"{{serverurl}}"
 							],
 							"path": [
 								"fmi",
 								"data",
-								"{version}",
+								"{{version}}",
 								"databases"
 							]
 						}
@@ -86,15 +86,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{serveur}/fmi/data/{version}/layouts",
+							"raw": "https://{{serverurl}}/fmi/data/{{version}}/layouts",
 							"protocol": "https",
 							"host": [
-								"{serveur}"
+								"{{serverurl}}"
 							],
 							"path": [
 								"fmi",
 								"data",
-								"{version}",
+								"{{version}}",
 								"layouts"
 							]
 						}
@@ -122,15 +122,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{serveur}/fmi/data/{version}/scripts",
+							"raw": "https://{{serverurl}}/fmi/data/{{version}}/scripts",
 							"protocol": "https",
 							"host": [
-								"{serveur}"
+								"{{serverurl}}"
 							],
 							"path": [
 								"fmi",
 								"data",
-								"{version}",
+								"{{version}}",
 								"scripts"
 							]
 						}
@@ -160,24 +160,24 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{serveur}/fmi/data/{version}/databases/{database}/layouts/{layout}?recordId={recordId}",
+							"raw": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/layouts/{{layout}}?recordId={{recordID}}",
 							"protocol": "https",
 							"host": [
-								"{serveur}"
+								"{{serverurl}}"
 							],
 							"path": [
 								"fmi",
 								"data",
-								"{version}",
+								"{{version}}",
 								"databases",
-								"{database}",
+								"{{database}}",
 								"layouts",
-								"{layout}"
+								"{{layout}}"
 							],
 							"query": [
 								{
 									"key": "recordId",
-									"value": "{recordId}"
+									"value": "{{recordID}}"
 								}
 							]
 						}
@@ -207,25 +207,25 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{serveur}/fmi/data/{version}/databases/{database}/layouts/{layout}/metadata?recordId={recordId}",
+							"raw": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/layouts/{{layout}}/metadata?recordId={{recordID}}",
 							"protocol": "https",
 							"host": [
-								"{serveur}"
+								"{{serverurl}}"
 							],
 							"path": [
 								"fmi",
 								"data",
-								"{version}",
+								"{{version}}",
 								"databases",
-								"{database}",
+								"{{database}}",
 								"layouts",
-								"{layout}",
+								"{{layout}}",
 								"metadata"
 							],
 							"query": [
 								{
 									"key": "recordId",
-									"value": "{recordId}"
+									"value": "{{recordID}}"
 								}
 							]
 						}
@@ -254,19 +254,19 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{serveur}/fmi/data/{version}/databases/{database}/layouts/{layout}/records",
+							"raw": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/layouts/{{layout}}/records",
 							"protocol": "https",
 							"host": [
-								"{serveur}"
+								"{{serverurl}}"
 							],
 							"path": [
 								"fmi",
 								"data",
-								"{version}",
+								"{{version}}",
 								"databases",
-								"{database}",
+								"{{database}}",
 								"layouts",
-								"{layout}",
+								"{{layout}}",
 								"records"
 							]
 						}
@@ -289,21 +289,21 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{serveur}/fmi/data/{version}/databases/{database}/layouts/{layout}/records/{recordId}",
+							"raw": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/layouts/{{layout}}/records/{{recordID}}",
 							"protocol": "https",
 							"host": [
-								"{serveur}"
+								"{{serverurl}}"
 							],
 							"path": [
 								"fmi",
 								"data",
-								"{version}",
+								"{{version}}",
 								"databases",
-								"{database}",
+								"{{database}}",
 								"layouts",
-								"{layout}",
+								"{{layout}}",
 								"records",
-								"{recordId}"
+								"{{recordID}}"
 							]
 						}
 					},
@@ -336,19 +336,19 @@
 							"raw": "{\n\"fieldData\": {\n     \"First Name\": \"Jhon\",\n     \"Last Name\": \"Doe\"\n   }\n}"
 						},
 						"url": {
-							"raw": "https://{serveur}/fmi/data/{version}/databases/{database}/layouts/{layout}/records",
+							"raw": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/layouts/{{layout}}/records",
 							"protocol": "https",
 							"host": [
-								"{serveur}"
+								"{{serverurl}}"
 							],
 							"path": [
 								"fmi",
 								"data",
-								"{version}",
+								"{{version}}",
 								"databases",
-								"{database}",
+								"{{database}}",
 								"layouts",
-								"{layout}",
+								"{{layout}}",
 								"records"
 							]
 						}
@@ -381,21 +381,21 @@
 							"raw": "{\n\"fieldData\": {\n     \"First Name\": \"John\",\n     \"Last Name\": \"Doe\"\n   }\n}"
 						},
 						"url": {
-							"raw": "https://{serveur}/fmi/data/{version}/databases/{database}/layouts/{layout}/records/{recordId}",
+							"raw": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/layouts/{{layout}}/records/{{recordID}}",
 							"protocol": "https",
 							"host": [
-								"{serveur}"
+								"{{serverurl}}"
 							],
 							"path": [
 								"fmi",
 								"data",
-								"{version}",
+								"{{version}}",
 								"databases",
-								"{database}",
+								"{{database}}",
 								"layouts",
-								"{layout}",
+								"{{layout}}",
 								"records",
-								"{recordId}"
+								"{{recordID}}"
 							]
 						}
 					},
@@ -417,21 +417,21 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "https://{serveur}/fmi/data/{version}/databases/{database}/layouts/{layout}/records/{recordId}",
+							"raw": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/layouts/{{layout}}/records/{{recordID}}",
 							"protocol": "https",
 							"host": [
-								"{serveur}"
+								"{{serverurl}}"
 							],
 							"path": [
 								"fmi",
 								"data",
-								"{version}",
+								"{{version}}",
 								"databases",
-								"{database}",
+								"{{database}}",
 								"layouts",
-								"{layout}",
+								"{{layout}}",
 								"records",
-								"{recordId}"
+								"{{recordID}}"
 							]
 						}
 					},
@@ -459,21 +459,21 @@
 							}
 						],
 						"url": {
-							"raw": "https://{serveur}/fmi/data/{version}/databases/{database}/layouts/{layout}/records/{recordId}",
+							"raw": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/layouts/{{layout}}/records/{{recordID}}",
 							"protocol": "https",
 							"host": [
-								"{serveur}"
+								"{{serverurl}}"
 							],
 							"path": [
 								"fmi",
 								"data",
-								"{version}",
+								"{{version}}",
 								"databases",
-								"{database}",
+								"{{database}}",
 								"layouts",
-								"{layout}",
+								"{{layout}}",
 								"records",
-								"{recordId}"
+								"{{recordID}}"
 							]
 						}
 					},
@@ -505,19 +505,19 @@
 							"raw": "{\n \"query\":[{\"First Name\":\"==\\\"Jhon\\\"\"}]\n}"
 						},
 						"url": {
-							"raw": "https://{serveur}/fmi/data/{version}/databases/{database}/layouts/{layout}/_find",
+							"raw": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/layouts/{{layout}}/_find",
 							"protocol": "https",
 							"host": [
-								"{serveur}"
+								"{{serverurl}}"
 							],
 							"path": [
 								"fmi",
 								"data",
-								"{version}",
+								"{{version}}",
 								"databases",
-								"{database}",
+								"{{database}}",
 								"layouts",
-								"{layout}",
+								"{{layout}}",
 								"_find"
 							]
 						}
@@ -557,17 +557,17 @@
 							}
 						],
 						"url": {
-							"raw": "https://{serveur}/fmi/data/{version}/databases/{database}/sessions",
+							"raw": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/sessions",
 							"protocol": "https",
 							"host": [
-								"{serveur}"
+								"{{serverurl}}"
 							],
 							"path": [
 								"fmi",
 								"data",
-								"{version}",
+								"{{version}}",
 								"databases",
-								"{database}",
+								"{{database}}",
 								"sessions"
 							]
 						}
@@ -580,17 +580,17 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "https://{serveur}/fmi/data/{version}/databases/{database}/sessions/{sessionToken}",
+							"raw": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/sessions/{sessionToken}",
 							"protocol": "https",
 							"host": [
-								"{serveur}"
+								"{{serverurl}}"
 							],
 							"path": [
 								"fmi",
 								"data",
-								"{version}",
+								"{{version}}",
 								"databases",
-								"{database}",
+								"{{database}}",
 								"sessions",
 								"{sessionToken}"
 							]
@@ -614,15 +614,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{serveur}/fmi/data/{version}/validateSessions",
+							"raw": "https://{{serverurl}}/fmi/data/{{version}}/validateSessions",
 							"protocol": "https",
 							"host": [
-								"{serveur}"
+								"{{serverurl}}"
 							],
 							"path": [
 								"fmi",
 								"data",
-								"{version}",
+								"{{version}}",
 								"validateSessions"
 							]
 						}
@@ -668,22 +668,22 @@
 							]
 						},
 						"url": {
-							"raw": "https://{serveur}/fmi/data/{version}/databases/{database}/layouts/{layout}/records/{recordId}/{containerFieldName}",
+							"raw": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/layouts/{{layout}}/records/{{recordID}}/{{containerFieldName}}",
 							"protocol": "https",
 							"host": [
-								"{serveur}"
+								"{{serverurl}}"
 							],
 							"path": [
 								"fmi",
 								"data",
-								"{version}",
+								"{{version}}",
 								"databases",
-								"{database}",
+								"{{database}}",
 								"layouts",
-								"{layout}",
+								"{{layout}}",
 								"records",
-								"{recordId}",
-								"{containerFieldName}"
+								"{{recordID}}",
+								"{{containerFieldName}}"
 							]
 						}
 					},
@@ -715,23 +715,23 @@
 							]
 						},
 						"url": {
-							"raw": "https://{serveur}/fmi/data/{version}/databases/{database}/layouts/{layout}/records/{recordId}/{containerFieldName}/{containerFieldRepetition}",
+							"raw": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/layouts/{{layout}}/records/{{recordID}}/{{containerFieldName}}/{{containerFieldRepetition}}",
 							"protocol": "https",
 							"host": [
-								"{serveur}"
+								"{{serverurl}}"
 							],
 							"path": [
 								"fmi",
 								"data",
-								"{version}",
+								"{{version}}",
 								"databases",
-								"{database}",
+								"{{database}}",
 								"layouts",
-								"{layout}",
+								"{{layout}}",
 								"records",
-								"{recordId}",
-								"{containerFieldName}",
-								"{containerFieldRepetition}"
+								"{{recordID}}",
+								"{{containerFieldName}}",
+								"{{containerFieldRepetition}}"
 							]
 						}
 					},
@@ -769,17 +769,17 @@
 							"raw": "{\n \"globalFields\":[{\"Global Field\":\"1\"}]\n}"
 						},
 						"url": {
-							"raw": "https://{serveur}/fmi/data/{version}/databases/{database}/globals",
+							"raw": "https://{{serverurl}}/fmi/data/{{version}}/databases/{{database}}/globals",
 							"protocol": "https",
 							"host": [
-								"{serveur}"
+								"{{serverurl}}"
 							],
 							"path": [
 								"fmi",
 								"data",
-								"{version}",
+								"{{version}}",
 								"databases",
-								"{database}",
+								"{{database}}",
 								"globals"
 							]
 						}
