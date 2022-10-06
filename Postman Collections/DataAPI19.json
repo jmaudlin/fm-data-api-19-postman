@@ -662,54 +662,54 @@
 	],
 	"variable": [
 		{
-			"id": "c8f5cc11-1e63-411e-a55b-ca9ee5539a0e",
+			"id": "3864445f-488f-49f8-bdaa-5b7aa0556ba7",
 			"key": "serverurl",
 			"value": "fmp.squawcreekkennels.com"
 		},
 		{
-			"id": "904b0c81-7467-4b87-987e-bc5bb17145ed",
+			"id": "6e2d2fc8-eef0-4af7-904c-99135dec14be",
 			"key": "version",
 			"value": "vLatest"
 		},
 		{
-			"id": "cf1912c5-1b94-4e2c-999b-87c62df43272",
+			"id": "e0d24320-b171-4f7c-a676-33d1ff6472c5",
 			"key": "database",
 			"value": "Web"
 		},
 		{
-			"id": "a7d9076b-1189-4063-a77f-296090a33449",
+			"id": "346e16ab-a938-4d34-81cd-f5c1184fc58a",
 			"key": "layout",
 			"value": "Web"
 		},
 		{
-			"id": "b41b3805-eebb-4d30-be57-e507de1cafd0",
+			"id": "27e94273-c5ee-472e-afef-c389a218383c",
 			"key": "user",
 			"value": "SCKAdmin",
 			"type": "string"
 		},
 		{
-			"id": "a7787ebb-8193-4778-a306-b3cc22c14630",
+			"id": "f29d057c-65a2-4a60-a4d6-0cc7a9b3d23d",
 			"key": "password",
 			"value": "loc56hel9",
 			"type": "string"
 		},
 		{
-			"id": "91dd1e30-c704-4441-b6e7-31cad5cba8c7",
+			"id": "0609304e-3212-4c3d-ab62-5bbbb5ca6dc3",
 			"key": "sessionToken",
 			"value": ""
 		},
 		{
-			"id": "3363c2f9-2715-47b8-9c77-90e444668d42",
+			"id": "c5e037a7-b23d-4282-a57d-bd04f8fc9973",
 			"key": "recordID",
 			"value": ""
 		},
 		{
-			"id": "9ebefbbb-075e-4193-9db4-9f1dadc19def",
+			"id": "ad4704d1-eece-41ef-87f3-ce63b08ec966",
 			"key": "containerFieldName",
 			"value": ""
 		},
 		{
-			"id": "a379eb50-2272-4463-a601-cfe08780c579",
+			"id": "872769f2-b78b-479e-b572-00bb7bc7e400",
 			"key": "containerFieldRepetition",
 			"value": ""
 		}
